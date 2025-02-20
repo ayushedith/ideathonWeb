@@ -5,9 +5,16 @@ interface CountdownProps {
 }
 
 const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
-  const calculateTimeLeft = () => {
+  interface TimeLeft {
+    days: number;
+    hours: number;
+    minutes: number;
+    seconds: number;
+  }
+
+  const calculateTimeLeft = (): TimeLeft => {
     const difference = +targetDate - +new Date();
-    let timeLeft: any = {};
+    let timeLeft: TimeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
 
     if (difference > 0) {
       timeLeft = {
@@ -47,16 +54,6 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
         <span>{timeLeft.minutes || '0'}m </span>
         <span>{timeLeft.seconds || '0'}s</span>
       </div>
-    </div>
-  );
-};
-
-const App: React.FC = () => {
-  const targetDate = new Date('2025-03-27T00:00:00');
-
-  return (
-    <div className="flex justify-center items-center h-screen bg-purple-600 text-white">
-      <Countdown targetDate={targetDate} />
     </div>
   );
 };

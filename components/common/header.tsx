@@ -5,7 +5,6 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import { useState, useEffect } from "react";
-import { START_DATE } from "@/data/prompts_data";
 import {
   Sheet,
   SheetContent,
@@ -16,8 +15,6 @@ import {
 } from "@/components/ui/sheet";
 
 export default function Header() {
-  const today = new Date();
-  const isLaunched: boolean = today > START_DATE ? true : false;
 
   const [show, setShow] = useState("translate-y-0");
   const [lastScrollY, setLastScrollY] = useState(0);
