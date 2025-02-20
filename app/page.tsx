@@ -21,7 +21,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { TailwindcssButtons } from "@/components/button";
+
 
 export default function HomePage() {
   const today = new Date();
@@ -130,6 +130,7 @@ export default function HomePage() {
               <div className="w-full h-[80vh] flex flex-col items-center justify-between">
                 <div className="w-full h-[75vh] max-sm:h-[60vh]">
                   <div className="relative w-full h-full flex items-center justify-center">
+                    
                     {isAnimationComplete ||
                     (windowWidth && windowWidth <= 1024) ? (
                       <BlurFade inView>
@@ -158,7 +159,7 @@ export default function HomePage() {
                     )}
                   </div>
                 </div>
-                <div className="h-[5vh] w-full bg-blue-10 border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-0 hover:translate-y-1 transition-all duration-200 flex items-center">
+                <div className="mt-10 h-[5vh] w-full bg-blue-10 border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-0 hover:translate-y-1 transition-all duration-200 flex items-center">
                   <Marquee className="w-full [--duration:20s]">
                     <shapes.Shape04 className="size-6 animate-spin-slow" />
                     <Label className="flex items-center">
@@ -237,6 +238,7 @@ export default function HomePage() {
         </div>
       ) : (
         <div className="relative z-10 min-h-fit w-full">
+          <Section id="about"> 
           <div className="w-screen min-h-[40vh] mx-auto flex flex-col items-center justify-center">
             <div className="w-full flex flex-col gap-16 items-center">
               <Label className="text-5xl max-sm:text-2xl font-bold">
@@ -246,6 +248,7 @@ export default function HomePage() {
               </Label>
             </div>
           </div>
+          </Section>
         </div>
       )}
 
