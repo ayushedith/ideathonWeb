@@ -8,10 +8,10 @@ import { usePathname } from "next/navigation";
 import { START_DATE } from "@/data/prompts_data";
 
 const socials = [
-    { name: "Discord", href: "https://discord.gg/GwsBzGZnYc", src: "/socials/Discord.svg" },
-    { name: "Instagram", href: "https://instagram.com/apexia_club", src: "/socials/Instagram.svg" },
-    { name: "LinkedIn", href: "https://linkedin.com/company/apexia-community", src: "/socials/LinkedIn.svg" },
-    { name: "Twitter", href: "https://twitter.com/apexia_club", src: "/socials/Twitter.svg" },
+    { name: "Discord", href: "https://discord.gg/", src: "/socials/Discord.svg" },
+    { name: "Instagram", href: "https://instagram.com/", src: "/socials/Instagram.svg" },
+    { name: "LinkedIn", href: "https://linkedin.com/company/", src: "/socials/LinkedIn.svg" },
+    { name: "Twitter", href: "https://twitter.com/", src: "/socials/Twitter.svg" },
 ];
 
 export default function Footer() {
@@ -56,6 +56,9 @@ export default function Footer() {
                 <div className="flex items-center gap-5 font-medium text-xl max-sm:text-sm max-md:gap-2">
                     <Link href="./#home" className={cn(activeSection === "home" ? "active" : "", "cursor-none")}>
                         Home
+                    </Link>
+                    <Link href="./#about" className={cn(activeSection === "about" ? "active" : "", "cursor-none")}>
+                        About
                     </Link>
                     {/* <Link href="/prompts" className="cursor-none">Prompts</Link> */}
                     {isLaunched && (<Link href="/prompts" className="cursor-none">Prompts</Link>)}

@@ -239,6 +239,7 @@ export default function HomePage() {
         </div>
       ) : (
         <div className="relative z-10 min-h-fit w-full">
+          <Section id="about"> 
           <div className="w-screen min-h-[40vh] mx-auto flex flex-col items-center justify-center">
             <div className="w-full flex flex-col gap-16 items-center">
               <Label className="text-5xl max-sm:text-2xl font-bold">
@@ -248,6 +249,7 @@ export default function HomePage() {
               </Label>
             </div>
           </div>
+          </Section>
         </div>
       )}
 

@@ -39,8 +39,8 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   }, [timer]);
 
   return (
-    <div className="flex flex-col items-center bg-purple-600 text-slate-100 p-2 rounded-full shadow-full">
-      <h1 className='text-3xl text-[#F0F8FF]'>See you at HACKTHEVISION 2K25 in</h1>
+    <div className="flex flex-col items-center bg-purple-600 text-teal-200 p-2 rounded-full shadow-full">
+      <h1 className='text-3xl text-[#F0F8FF]'>see you at HACKTHEVISION 2K25 in</h1>
       <div className="text-4xl font-mono">
         <span>{timeLeft.days || '0'}d </span>
         <span>{timeLeft.hours || '0'}h </span>

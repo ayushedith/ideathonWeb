@@ -77,19 +77,14 @@ export default function Header() {
       </Link>
       <div className="gap-5 items-center text-2xl font-medium hover:font-semibold cursor-none hover:text-opacity-50 hidden sm:flex">
         <Link
-          href="./#home"
+          href="https://qr.me-qr.com/i3ABqeTC"
           className={cn(
             activeSection === "home" ? "active" : "",
             "cursor-none"
           )}
         >
-          Home
+          Register
         </Link>
-        {isLaunched && (
-          <Link href="/prompts" className="cursor-none">
-            Prompts
-          </Link>
-        )}
         <Link
           href="./#faqs"
           className={cn(
@@ -118,25 +113,6 @@ export default function Header() {
             </SheetHeader>
             <div className="pt-4 flex flex-col gap-4 text-xl max-sm:text-sm font-medium">
               <Link
-                href="./#home"
-                onClick={() => setIsSheetOpen(false)}
-                className={cn(
-                  activeSection === "home" ? "active" : "",
-                  "cursor-none"
-                )}
-              >
-                Home
-              </Link>
-              {isLaunched && (
-                <Link
-                  href="/prompts"
-                  onClick={() => setIsSheetOpen(false)}
-                  className="cursor-none"
-                >
-                  Prompts
-                </Link>
-              )}
-              <Link
                 href="./#faqs"
                 onClick={() => setIsSheetOpen(false)}
                 className={cn(
@@ -145,6 +121,16 @@ export default function Header() {
                 )}
               >
                 FAQs
+              </Link>
+              <Link
+                href="https://qr.me-qr.com/i3ABqeTC"
+                onClick={() => setIsSheetOpen(false)}
+                className={cn(
+                  activeSection === "home" ? "active" : "",
+                  "cursor-none"
+                )}
+              >
+                Register
               </Link>
             </div>
           </SheetContent>
