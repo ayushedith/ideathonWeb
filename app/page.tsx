@@ -21,6 +21,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { TailwindcssButtons } from "@/components/button";
 
 export default function HomePage() {
   const today = new Date();
@@ -135,7 +136,11 @@ export default function HomePage() {
                         {windowWidth && windowWidth > 1024 ? (
                           <HeroSection />
                         ) : (
-                          <HeroSectionMobile />
+                          <>
+                          
+                            <HeroSectionMobile />
+                            
+                          </>
                         )}
                       </BlurFade>
                     ) : (
