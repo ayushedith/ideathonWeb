@@ -67,7 +67,7 @@ export default function Footer() {
             <div className="bg-core-pink py-8 text-black text-xl px-6 border-rl-2 border-t-2 border-black rounded-t-xl shadow-[8px_-4px_0px_0px_rgba(0,0,0,1)] max-sm:shadow-[4px_-2px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-y-1 transition-all duration-200">
                 <div className="flex w-full max-w-[90vw] mx-auto max-sm:flex-col-reverse justify-between max-sm:gap-5">
                     <div className="flex justify-between items-center w-full gap-4 max-sm:gap-2">
-                        <Link href="https://apexia.club" className="text-xl max-sm:text-base cursor-none">
+                        <Link href="https://meayush.xyz" className="text-xl max-sm:text-base cursor-none">
                             hackvison{new Date().getFullYear()}
                         </Link>
                         <div className="flex gap-5 max-sm:gap-2 max-sm:justify-center">
