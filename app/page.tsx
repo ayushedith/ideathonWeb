@@ -21,8 +21,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { TailwindcssButtons } from "@/components/button";
-import Countdown from "@/components/Countdown";
+
 
 export default function HomePage() {
   const today = new Date();
