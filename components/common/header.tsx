@@ -5,7 +5,6 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import { useState, useEffect } from "react";
-import { START_DATE } from "@/data/prompts_data";
 import {
   Sheet,
   SheetContent,
