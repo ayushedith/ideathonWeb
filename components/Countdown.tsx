@@ -51,14 +51,4 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   );
 };
 
-const App: React.FC = () => {
-  const targetDate = new Date('2025-03-27T00:00:00');
-
-  return (
-    <div className="flex justify-center items-center h-screen bg-purple-600 text-white">
-      <Countdown targetDate={targetDate} />
-    </div>
-  );
-};
-
 export default Countdown;

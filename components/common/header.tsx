@@ -16,8 +16,6 @@ import {
 } from "@/components/ui/sheet";
 
 export default function Header() {
-  const today = new Date();
-  const isLaunched: boolean = today > START_DATE ? true : false;
 
   const [show, setShow] = useState("translate-y-0");
   const [lastScrollY, setLastScrollY] = useState(0);

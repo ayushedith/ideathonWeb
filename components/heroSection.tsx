@@ -11,7 +11,7 @@ export function HeroSection() {
         </div>
         <div className="hero-section  items-center justify-center">
             
-            <Image src="/ideathonimg2.png" alt="Hero Image" className="hero-image" style={{ width: '1280px', height: '410px' }} />
+            <Image src="/ideathonimg1.png" alt="Hero Image" className="hero-image" width={720} height={410} />
             
             <Link href="https://qr.me-qr.com/i3ABqeTC" target="_blank" className="cta-button flex items-center justify-center">
                 <div className="flex items-center justify-center mt-3">
@@ -27,7 +27,7 @@ export function HeroSectionMobile() {
     return (
         <>
         <div className="hero-section  items-center justify-center">
-        <Image src="/ideathonimg2.png" alt="Hero Image" className="hero-image" style={{ width: '1280px', height: '410px' }} />
+        <Image src="/ideathonimg1.png" alt="Hero Image" className="hero-image" width={720} height={410} />
             <Link href="https://qr.me-qr.com/i3ABqeTC" target="_blank" className="cta-button flex items-center justify-center">
                 <div className="flex items-center justify-center mt-3">
                     <TailwindcssButtons />
