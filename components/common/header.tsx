@@ -74,7 +74,7 @@ export default function Header() {
       </Link>
       <div className="gap-5 items-center text-2xl font-medium hover:font-semibold cursor-none hover:text-opacity-50 hidden sm:flex">
         <Link
-          href="https://qr.me-qr.com/i3ABqeTC"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScs4vx3Yn6i55C2cMfK7lVqVTW4fTRQgflXgNh5aiwoUf8K9A/viewform"
           className={cn(
             activeSection === "home" ? "active" : "",
             "cursor-none"
@@ -120,7 +120,7 @@ export default function Header() {
                 FAQs
               </Link>
               <Link
-                href="https://qr.me-qr.com/i3ABqeTC"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScs4vx3Yn6i55C2cMfK7lVqVTW4fTRQgflXgNh5aiwoUf8K9A/viewform"
                 onClick={() => setIsSheetOpen(false)}
                 className={cn(
                   activeSection === "home" ? "active" : "",

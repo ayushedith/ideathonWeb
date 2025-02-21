@@ -13,7 +13,7 @@ export function HeroSection() {
             
             <Image src="https://res.cloudinary.com/dbfjsd3f5/image/upload/v1740076626/ideathonImg1_o6zuvd.png" alt="Hero Image" className="hero-image" width={720} height={410} />
             
-            <Link href="https://qr.me-qr.com/i3ABqeTC" target="_blank" className="cta-button flex items-center justify-center">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScs4vx3Yn6i55C2cMfK7lVqVTW4fTRQgflXgNh5aiwoUf8K9A/viewform" target="_blank" className="cta-button flex items-center justify-center">
                 <div className="flex items-center justify-center mt-3">
                     <TailwindcssButtons />
                 </div>
@@ -28,7 +28,7 @@ export function HeroSectionMobile() {
         <>
         <div className="hero-section  items-center justify-center">
         <Image src="https://res.cloudinary.com/dbfjsd3f5/image/upload/v1740076626/ideathonImg1_o6zuvd.png" alt="Hero Image" className="hero-image" width={720} height={410} />
-            <Link href="https://qr.me-qr.com/i3ABqeTC" target="_blank" className="cta-button flex items-center justify-center">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScs4vx3Yn6i55C2cMfK7lVqVTW4fTRQgflXgNh5aiwoUf8K9A/viewform" target="_blank" className="cta-button flex items-center justify-center">
                 <div className="flex items-center justify-center mt-3">
                     <TailwindcssButtons />
                 </div>
