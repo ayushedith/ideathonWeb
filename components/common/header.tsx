@@ -65,11 +65,11 @@ export default function Header() {
   return (
     <header
       className={cn(
-        "text-black px-8 py-4 border-2 bg-blue-10 border-[#000000] rounded-full max-sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-200 w-full flex items-center justify-between",
+        "text-black px-8 py-4 border-2 bg-blue-10 border-[#000000] rounded-full max-sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-200 w-full flex items-center justify-between cursor-none",
         show
       )}
     >
-      <Link href="../">
+      <Link href="../" className="cursor-none">
         <Image src="/logo.png" alt="Logo" width={160} height={160} />
       </Link>
       <div className="gap-5 items-center text-2xl font-medium hover:font-semibold cursor-none hover:text-opacity-50 hidden sm:flex">

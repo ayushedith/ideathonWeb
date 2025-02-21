@@ -7,7 +7,7 @@ export function HeroSection() {
     return (
         <>
         <div className="mt-10 mb-3">
-            <Countdown targetDate={new Date('2025-03-27T00:00:00')}/>
+            <Countdown targetDate={new Date('2025-03-26T00:00:00')}/>
         </div>
         <div className="hero-section  items-center justify-center">
             
@@ -26,6 +26,9 @@ export function HeroSection() {
 export function HeroSectionMobile() {
     return (
         <>
+        {/* <div className="mt-10 mb-3">
+            <Countdown targetDate={new Date('2025-03-26T00:00:00')}/>
+        </div> */}
         <div className="hero-section  items-center justify-center">
         <Image src="https://res.cloudinary.com/dbfjsd3f5/image/upload/v1740076626/ideathonImg1_o6zuvd.png" alt="Hero Image" className="hero-image" width={720} height={410} />
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLScs4vx3Yn6i55C2cMfK7lVqVTW4fTRQgflXgNh5aiwoUf8K9A/viewform" target="_blank" className="cta-button flex items-center justify-center">
