@@ -70,7 +70,7 @@ export default function Header() {
       )}
     >
       <Link href="../">
-        <Image src="/crown.png" alt="Logo" width={35} height={35} />
+        <Image src="/logo.png" alt="Logo" width={160} height={160} />
       </Link>
       <div className="gap-5 items-center text-2xl font-medium hover:font-semibold cursor-none hover:text-opacity-50 hidden sm:flex">
         <Link
@@ -103,7 +103,7 @@ export default function Header() {
             <SheetHeader>
               <SheetTitle>
                 <Link href="../" onClick={() => setIsSheetOpen(false)}>
-                  <Image src="/crown.png" alt="Logo" width={35} height={35} />
+                  <Image src="/logo.png" alt="Logo" width={35} height={35} />
                 </Link>
               </SheetTitle>
               <SheetDescription></SheetDescription>
