@@ -1,8 +1,6 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
-import { shapes } from "@/lib/shapes";
 import { FAQData } from "@/data/faq_data";
 import { Label } from "@/components/ui/label";
 import Header from "@/components/common/header";

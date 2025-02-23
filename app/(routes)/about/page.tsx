@@ -1,20 +1,10 @@
 "use client";
-
-import Link from "next/link";
 import Image from "next/image";
-import { shapes } from "@/lib/shapes";
-import { FAQData } from "@/data/faq_data";
 import { Label } from "@/components/ui/label";
 import Header from "@/components/common/header";
 import Footer from "@/components/common/footer";
 import Section from "@/components/common/section";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 
 export default function About() {
   return (
