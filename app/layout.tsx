@@ -28,7 +28,6 @@ export default function RootLayout({
                 <meta property="og:title" content="Apexia Figbruary" />
                 <meta property="og:description" content="Apexia is hosting a mini-version of figbruary. It will be the same concept as figbruary but, will go on for 7 Days." />
                 <meta property="og:image" content="https://ideathon-web.vercel.app/ideathonimg1.png" />
-
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta property="twitter:domain" content="ideathon-web.vercel.app" />
                 <meta property="twitter:url" content="https://ideathon-web.vercel.app/" />
