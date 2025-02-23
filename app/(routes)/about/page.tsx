@@ -93,10 +93,10 @@ export default function About() {
                 <li>
                   <strong>🤝 Collaborative Community</strong>{" "}
                   <p>
-                    HACKVISION VAULT is not just a competition—it’s a thriving
+                    HACKVISION VAULT is not just a competition—it&apos;s a thriving
                     community of tech enthusiasts, problem-solvers, and industry
-                    experts. Whether you're a beginner or an experienced
-                    innovator, you’ll have the opportunity to collaborate,
+                    experts. Whether you&apos;re a beginner or an experienced
+                    innovator, you&apos;ll have the opportunity to collaborate,
                     network, and exchange knowledge with like-minded
                     individuals.
                   </p>
@@ -125,7 +125,7 @@ export default function About() {
                     We provide more than just a platform to compete.
                     Participants gain hands-on experience, access to mentorship
                     from industry professionals, and exposure to the latest
-                    technologies. Whether it's coding, designing, or
+                    technologies. Whether it&apos;s coding, designing, or
                     strategizing, every participant walks away with valuable
                     skills and insights.
                   </p>
@@ -134,7 +134,7 @@ export default function About() {
             </Label>
             <Label className="cursor-none text-xl max-sm:text-xs font-normal text-black text-justify">
               <strong>
-                HACKVISION VAULT is more than an event—it’s a launchpad for
+                HACKVISION VAULT is more than an event—it&apos;s a launchpad for
                 innovation and a stepping stone toward real-world success!
               </strong>
             </Label>
@@ -148,7 +148,7 @@ export default function About() {
             <Label className="cursor-none text-xl max-sm:text-xl font-bold text-black">
               HACKVISION VAULT is open to all passionate innovators, creators,
               and problem-solvers who want to make a difference through
-              technology. Whether you're a developer, designer, entrepreneur, or
+              technology. Whether you&apos;re a developer, designer, entrepreneur, or
               simply someone with a groundbreaking idea, this is your chance to
               collaborate, learn, and build something impactful.
             </Label>
@@ -165,30 +165,30 @@ export default function About() {
               <strong>Who Should Join?</strong>{" "}
               <ol>
                 <li>
-                  <strong>🚀 Developers & Programmers</strong> – Whether you're
+                  <strong>🚀 Developers & Programmers</strong> – Whether you&apos;re
                   a beginner or an experienced coder, use your technical skills
                   to bring innovative solutions to life.
                 </li>
                 <li>
-                  <strong>🎨 UI/UX Designers </strong> – Design plays a crucial
-                  role in creating impactful projects. If you're skilled in user
+                  <strong>🎨 UI/UX Designers </strong>  Design plays a crucial
+                  role in creating impactful projects. If you&apos;re skilled in user
                   experience and interface design, your creativity can elevate
-                  the team's project.
+                  the team&apos;s project.
                 </li>
                 <li>
-                  <strong>💡 Innovators & Thinkers</strong> – Even if you're not
+                  <strong>💡 Innovators & Thinkers</strong>  Even if you&apos;re not
                   a coder, your ability to think critically, solve problems, and
                   contribute ideas can be a game-changer for your team.
                 </li>
                 <li>
-                  <strong>📊 Entrepreneurs & Strategists</strong> – Every great
+                  <strong>📊 Entrepreneurs & Strategists</strong> Every great
                   idea needs a strong execution plan. If you understand business
                   strategies, market needs, or project management, your insights
                   will add immense value.
                 </li>
                 <li>
-                  <strong>🤝 Students & Enthusiasts</strong> – HACKVISION VAULT
-                  is a learning experience. If you're a student or tech
+                  <strong>🤝 Students & Enthusiasts</strong>  HACKVISION VAULT
+                  is a learning experience. If you&apos;re a student or tech
                   enthusiast eager to learn and build, this is the perfect
                   opportunity to gain hands-on experience.
                 </li>
